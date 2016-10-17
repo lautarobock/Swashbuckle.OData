@@ -9,7 +9,8 @@ using System.Web.Http.Controllers;
 using System.Web.OData.Extensions;
 using System.Web.OData.Routing;
 using System.Web.OData.Routing.Conventions;
-using Flurl;
+//using Flurl;
+using Swashbuckle.OData.Descriptions.Flurl;
 
 namespace Swashbuckle.OData.Descriptions
 {

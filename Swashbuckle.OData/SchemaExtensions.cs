@@ -15,7 +15,15 @@ namespace Swashbuckle.OData
             {
                 var fullTypeName = schema.@ref.Replace("#/definitions/", string.Empty);
 
-                return TypeHelper.FindType(fullTypeName);
+                try
+                {
+                    return TypeHelper.FindType(fullTypeName);
+                }
+                catch (Exception)
+                {
+
+                    return null;
+                }
             }
 
             return null;

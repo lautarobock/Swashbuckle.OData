@@ -2,7 +2,8 @@
 using System.Collections.Generic;
 using System.Diagnostics.Contracts;
 using System.Linq;
-using Flurl;
+//using Flurl;
+using Swashbuckle.OData.Descriptions.Flurl;
 using Swashbuckle.Swagger;
 
 namespace Swashbuckle.OData.Descriptions
